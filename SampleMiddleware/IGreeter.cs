@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SampleMiddleware
 {
-    interface IGreeter
+    public interface IGreeter
     {
         string GetMessageOfTheDay();
     }
